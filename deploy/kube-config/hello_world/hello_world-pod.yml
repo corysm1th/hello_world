@@ -6,6 +6,10 @@ spec:
   containers:
     - image: corysmith/hello_world
       name: hello-world
+      livenessProbe:
+        httpGet:
+          path: /
+          port: 80
       ports:
         - containerPort: 80
           name: http
