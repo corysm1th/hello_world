@@ -12,3 +12,8 @@ cd hello_world
 make build
 ```
 
+**Build and Run Locally**
+
+```bash
+make all
+```
