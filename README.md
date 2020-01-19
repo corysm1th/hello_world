@@ -15,5 +15,5 @@ make build
 **Build and Run Locally**
 
 ```bash
-make all
+make run
 ```
