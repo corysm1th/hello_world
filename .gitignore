@@ -1,0 +1,5 @@
+# While the Go community is moving toward modules on a proxy, I like vendoring for the reasons explained in 12 factor.
+# vendor
+
+# Don't commit the binary
+/hello_world
